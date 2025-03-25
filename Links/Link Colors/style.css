@@ -1,0 +1,27 @@
+body {
+   font-size: 40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+
+}
+body a{
+   text-decoration: double;
+   background-color:rgba(200, 0, 0, 50);
+}
+body a:hover {
+   color: black;
+   background-color: azure;
+}
+
+body a:link {
+   color: palevioletred;
+}
+
+body a:active {
+   color:purple;
+
+}
+
+body a:visited {
+   color:teal;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nav Bar</title>
+    <style>
+        .navbar {
+            background-color: cornflowerblue;
+        }
+
+        .navbar ul {
+            overflow: hidden;
+        }
+
+        .navbar li {
+            list-style: none;
+            float: left;
+            margin:8px 100px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: yellowgreen;
+        }
+        .navbar input{
+            border-radius: 3px;
+            border: solid rgb(48, 23, 23);
+        }
+        
+        .search{
+            float: right;
+            padding: 5px 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <div class="search">
+                    <input type="search" id="search" placeholder="Search">
+                </div>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+</body>
+
+</html>

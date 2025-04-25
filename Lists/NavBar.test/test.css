@@ -1,0 +1,33 @@
+header{
+    background-color: rgb(130, 206, 216);
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    
+    }
+
+li{
+    list-style: none;
+    display: inline-flex;
+    background-color: black;
+    font-weight: bold;
+    padding: 10px;  
+    border-radius: 10px;
+    margin-left: 10px;
+    
+
+}
+
+.logo{
+    display: flex;   
+}
+
+
+

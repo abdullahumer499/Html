@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(211, 180, 180);
+
+    ol {
+        color: rgb(54, 122, 145);
+        list-style-type: lower-roman;
+    }
+
+    ul {
+        color: rgb(56, 62, 62);
+        list-style: circle;
+    }
+
+    h2 {
+        background-color: rgb(174, 150, 55);
+        border: 2px solid;
+        font-family: monospace;
+    }
+
+    dl {
+        color: rgb(209, 126, 18);
+
+    }
+}

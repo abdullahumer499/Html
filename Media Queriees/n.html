@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: rgb(39, 168, 39);
+            padding: 30px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+
+        .navdiv {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            background-color: rgb(191, 200, 215);
+            padding: 20px;
+        }
+
+        .navdiv > div {
+            flex: 1;
+            min-width: 250px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 800px) {
+            .navdiv {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navdiv > div {
+                width: 90%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>W3School</h2>
+    </header>
+
+    <main>
+        <div class="navdiv">
+            <div>
+                <h2>London</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, debitis praesentium! Odio, optio ducimus.</p>
+            </div>
+
+            <div>
+                <h2>Paris</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, debitis praesentium! Odio, optio ducimus.</p>
+            </div>
+
+            <div>
+                <h2>Tokyo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, debitis praesentium! Odio, optio ducimus.</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

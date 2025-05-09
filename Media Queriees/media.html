@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        header {
+            background-color: rgb(39, 168, 39);
+            padding: 30px;
+            text-align: center;
+        }
+
+        .navdiv {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            background-color: rgb(191, 200, 215);
+        }
+
+        .navdiv div {
+
+            padding: 20px;
+            background-color: rgb(142, 255, 255);
+            border-radius: 85px;
+        }
+
+        img{
+            max-width: 100%;
+        }
+
+
+        @media screen and (max-width: 500px) {
+            .navdiv {
+
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>W3School</h2>
+    </header>
+
+    <main>
+        <div class="navdiv">
+
+            <div>
+                <h2><Label>London</Label></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, debitis praesentium! Odio, optio
+                    ducimus consectetur soluta reprehenderit quo minima velit laudantium non, quibusdam officiis sequi
+                    quam. Ratione, doloribus excepturi magni culpa sint, voluptas quo reprehenderit repellendus, ad
+                    alias consectetur optio.</p>
+            </div>
+
+            <div>
+                <h2><Label>Paris</Label></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, debitis praesentium! Odio, optio
+                    ducimus consectetur soluta reprehenderit quo minima velit laudantium non, quibusdam officiis sequi
+                    quam. Ratione, doloribus excepturi magni culpa sint, voluptas quo reprehenderit repellendus, ad
+                    alias consectetur optio.</p>
+            </div>
+
+            <div>
+                <h2><Label>Tokyo</Label></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, debitis praesentium! Odio, optio
+                    ducimus consectetur soluta reprehenderit quo minima velit laudantium non, quibusdam officiis sequi
+                    quam. Ratione, doloribus excepturi magni culpa sint, voluptas quo reprehenderit repellendus, ad
+                    alias consectetur optio.</p>
+            </div>
+        </div>
+
+        <div>
+            <h2>Image</h2>
+            <img src="./bg.jpg">
+            <p>Lorem ipsum dolor sit amet...</p>
+        </div>
+        
+        
+    </main>
+
+</body>
+
+</html>

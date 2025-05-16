@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <form action="post">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Enter your name"><br><br>
+                <label for="passwoord">Password</label>
+                <input type="password" name="password">
+            </div>
+
+            <div>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">female</label>
+            </div>
+
+            <div>
+                <label for="field">Field:</label>
+                <input type="checkbox" name="field">
+                <label for="field">software Engineer</label>
+                <input type="checkbox" name="field">
+                <label for="field">Machenical Engineer</label>
+            </div>
+
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" cols="40">Html Form</textarea>
+            </div>
+
+            <div>
+                <label for="color">Select Color</label>
+                <input type="color">
+            </div>
+
+            <div>
+                <label for="number">Number</label>
+                <input type="number" min="0" max="10">
+            </div>
+
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+            <div>
+                <label for="time">Time</label>
+                <input type="time" name="time" id="time">
+
+            </div>
+
+            <div>
+
+                <label for="search">Search</label>
+                <input type="search" placeholder="Search">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+
+            <div>
+                <input type="submit" id="submit">
+            </div>
+
+            <div>
+                <label for="file">Select File:</label>
+                <input type="file"> <br>
+                <input type="submit" value="save">
+            </div>
+
+            <div>
+                <select size="3" multiple>
+                    <option value="In">India</option>
+                    <option value="Pk">Pakistan</option>
+                    <option value="Sa">South Africa</option>
+                    <option value="SA">South America</option>
+                </select>
+               
+            </div>
+            <br>
+
+            <div>
+                <input type="reset">
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

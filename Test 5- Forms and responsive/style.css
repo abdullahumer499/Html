@@ -1,0 +1,58 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+#maindiv {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+
+#f-row {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: rgb(190, 13, 13);
+}
+
+button:hover{
+    background-color: rgb(234, 119, 119);
+}
+
+@media screen and (max-width: 768px) {
+    #maindiv {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #maindiv {
+        width: 95%;
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+

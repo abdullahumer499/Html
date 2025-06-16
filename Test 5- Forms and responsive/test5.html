@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <form>
+    <div id="maindiv">
+
+        <header>
+            <h1>Contact Form</h1>
+            <p>Please fill this form</p>
+        </header>
+
+        <div id="f-row">
+
+        <div class="group">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname">
+        </div>
+
+        <div class="group">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname">
+        </div>
+
+        <div class="group">
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email">
+        </div>
+
+        <div class="group">
+            <label for="phone">Phone no:</label>
+            <input type="text" id="phone">
+        </div>
+
+        <div class="group">
+            <label for="pass">Password:</label>
+            <input type="password" id="pass">
+        </div>
+
+        <div class="group">
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="pk">Pakistan</option>
+                <option value="cn">Canada</option>
+                <option value="am">America</option>
+            </select>
+        </div>
+
+        <div class="group">
+            <label for="city">City:</label>
+            <select name="city" id="city">
+                <option value="isl">Islamabad</option>
+                <option value="psh">Peshawar</option>
+                <option value="bl">Balochistan</option>
+            </select>
+        </div>
+
+        <div class="group">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+        </div>
+
+        <div class="group">
+            <label><input type="checkbox" id="box"> Remember me</label> 
+        </div>
+        
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+        </div>
+    </div>
+  </form>
+
+</body>
+
+</html>
